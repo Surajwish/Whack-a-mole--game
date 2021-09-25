@@ -1,0 +1,78 @@
+body{
+    background-color: lightgrey;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin-bottom: -10px;
+}
+h2{
+    text-align: center;
+    font-weight: normal;
+    font-size: 20px;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+.top div{
+    margin:0px 50px;
+    align-content: center;
+    text-align: center;
+}
+#score, #time-left{
+    border: 3px dotted green;
+    font-size: 25px;
+}
+
+.bottom{
+    margin-top:5vh;
+    display: flex;
+    justify-content: center;
+}
+
+#grid-container{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+.square{
+    height:80px;
+    width:90px;
+    border:1px solid black;
+}
+.mole{
+background-image: url('https://www.pinclipart.com/picdir/middle/357-3573418_mole-image-mole-cartoon-png-clipart.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size:70px;
+cursor: pointer;
+}
+.mole:active{
+    background-size: 0px;
+}
+
+button {
+    margin:0px 50px;
+    width:70px;
+    height:30px;
+    font-weight: 600;
+    padding: 5px 2px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 9px #999;
+  }
+  
+  button:hover {background-color: #3e8e41}
+  
+  button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
